@@ -20,6 +20,11 @@ public class Cubo {
     // area diagonalFace
     public int areaDiagonalFace(int lado){
         int areaDiagonalFace = Math.sqrt(2) * lado;
-        return (int) areaDiagonalFace;
+        return areaDiagonalFace;
+    }
+    // diagonalinterna
+    public int diagonalinterna(int lado){
+        int diagonalinterna = Math.sqrt(3) * lado;
+        return diagonalinterna;
     }
 }
