@@ -12,4 +12,9 @@ public class Cubo {
         int areaFace = lado * lado;
         return areaFace;
     }
+    // area total
+    public int areaTotal(int lado){
+        int areaTotal = 6 * lado * lado;
+        return areaTotal;
+    }
 }
