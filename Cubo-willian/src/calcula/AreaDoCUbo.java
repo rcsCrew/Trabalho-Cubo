@@ -28,6 +28,6 @@ public class AreaDoCUbo {
 
 
 //================================================================
-// BY ramon Carneiro Senger !
-// codigo vai ter varias classes com nome random para se alguem for copiar copiar e modificar ksksks
+// BY: Ramon Carneiro Senger !
+// GITHUB: https://github.com/rcsCrew/Trabalho-Cubo/tree/main
 //================================================================

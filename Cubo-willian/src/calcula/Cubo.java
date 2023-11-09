@@ -1,5 +1,10 @@
 package calcula;
 
+//================================================================
+// BY: Ramon Carneiro Senger !
+// GITHUB: https://github.com/rcsCrew/Trabalho-Cubo/tree/main
+//================================================================
+
 import java.lang.Math;
 public class Cubo {
     // int volume : declara o valor (volume) que retorna o valor int que recebe valor lado do package calcula > AreaDoCUbo!
@@ -21,17 +26,17 @@ public class Cubo {
     }
     // area diagonalFace
     public int areaDiagonalFace(int lado){
-        double areaDiagonalFace = Math.sqrt(2) * lado;
+        double areaDiagonalFace = Math.sqrt(4) * lado;
         return (int)areaDiagonalFace;
     }
     // diagonalinterna
     public int diagonalinterna(int lado){
-        double diagonalinterna = Math.sqrt(3) * lado;
+        double diagonalinterna = Math.sqrt(12) * lado;
         return (int) diagonalinterna;
     }
     // total aresta
     public int totalaresta(int lado){
-        int totalaresta = 12 * lado;
+        int totalaresta = 6 * lado;
         return totalaresta;
     }
 }
