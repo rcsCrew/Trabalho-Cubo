@@ -10,12 +10,12 @@ public class AreaDoCUbo {
             
             Cubo cubo = new Cubo();
             
-            System.out.println("Volume do cubo: " );
-            System.out.println("Área de uma face do cubo: " );
-            System.out.println("Área total do cubo: " );
-            System.out.println("Diagonal de uma face do cubo: " );
-            System.out.println("Diagonal interna do cubo: " );
-            System.out.println("Comprimento total de arestas do cubo: " );
+            System.out.println("Volume do cubo: " + cubo.volume(lado) );
+            System.out.println("Área de uma face do cubo: " + cubo.areaFace(lado));
+            System.out.println("Área total do cubo: " + cubo.areaTotal(lado));
+            System.out.println("Diagonal de uma face do cubo: " + cubo.areaDiagonalFace(lado) );
+            System.out.println("Diagonal interna do cubo: " + cubo.diagonalinterna(lado));
+            System.out.println("Comprimento total de arestas do cubo: " + cubo.totalaresta(lado) );
         } catch (Exception e) {
             System.out.println("Ocorreu um erro: " + e.getMessage());
         }
