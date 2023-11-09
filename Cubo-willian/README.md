@@ -1,18 +1,25 @@
-## Getting Started
+# Trabalho sobre Cálculos de Propriedades de Cubo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Feito por Ramon Carneiro Senger e consiste em uma aplicação simples em Java para calcular diversas propriedades de um cubo, como volume, área de face, área total, diagonais e comprimento total de arestas.
 
-## Folder Structure
+## Métodos da Classe Cubo
 
-The workspace contains two folders by default, where:
+A classe `Cubo` possui os seguintes métodos:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `volume(int lado)`: Calcula o volume do cubo com base no comprimento da aresta.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- `areaFace(int lado)`: Calcula a área de uma face do cubo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- `areaTotal(int lado)`: Calcula a área total do cubo.
 
-## Dependency Management
+- `diagonalFace(int lado)`: Calcula a diagonal de uma face do cubo.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `diagonalInterna(int lado)`: Calcula a diagonal interna do cubo.
+
+- `comprimentoTotalArestas(int lado)`: Calcula o comprimento total de todas as arestas do cubo.
+
+## Utilização
+
+Ao executar a aplicação, o usuário será solicitado a inserir o comprimento da aresta do cubo. Em seguida, o programa calculará e exibirá o volume, área de face, área total, diagonais e comprimento total de arestas.
+
+---
