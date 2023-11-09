@@ -7,4 +7,9 @@ public class Cubo {
         // retorna o valor somado
         return volume;
     } 
+    // area face 
+    public int areaFace(int lado){
+        int areaFace = lado * lado;
+        return areaFace;
+    }
 }
