@@ -17,4 +17,9 @@ public class Cubo {
         int areaTotal = 6 * lado * lado;
         return areaTotal;
     }
+    // area diagonalFace
+    public int areaDiagonalFace(int lado){
+        int areaDiagonalFace = Math.sqrt(2) * lado;
+        return (int) areaDiagonalFace;
+    }
 }
