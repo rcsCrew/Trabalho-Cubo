@@ -21,13 +21,13 @@ public class Cubo {
     }
     // area diagonalFace
     public int areaDiagonalFace(int lado){
-        int areaDiagonalFace = Math.sqrt(2) * lado;
-        return areaDiagonalFace;
+        double areaDiagonalFace = Math.sqrt(2) * lado;
+        return (int)areaDiagonalFace;
     }
     // diagonalinterna
     public int diagonalinterna(int lado){
-        int diagonalinterna = Math.sqrt(3) * lado;
-        return diagonalinterna;
+        double diagonalinterna = Math.sqrt(3) * lado;
+        return (int) diagonalinterna;
     }
     // total aresta
     public int totalaresta(int lado){
