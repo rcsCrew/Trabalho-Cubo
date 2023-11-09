@@ -1,4 +1,6 @@
 package calcula;
+
+import java.lang.Math;
 public class Cubo {
     // int volume : declara o valor (volume) que retorna o valor int que recebe valor lado do package calcula > AreaDoCUbo!
     public int volume(int lado){
@@ -26,5 +28,10 @@ public class Cubo {
     public int diagonalinterna(int lado){
         int diagonalinterna = Math.sqrt(3) * lado;
         return diagonalinterna;
+    }
+    // total aresta
+    public int totalaresta(int lado){
+        int totalaresta = 12 * lado;
+        return totalaresta;
     }
 }
